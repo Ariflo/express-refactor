@@ -1,0 +1,25 @@
+{
+  "name": "express-refactor",
+  "version": "1.0.0",
+  "description": "practicing refactoring code ",
+  "main": "server.js ",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ariflo/express-refactor.git"
+  },
+  "author": "Ari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ariflo/express-refactor/issues"
+  },
+  "homepage": "https://github.com/Ariflo/express-refactor#readme"
+}
