@@ -15,5 +15,4 @@ window.onload = function(){
   if (window.location.pathname === '/song/1/2/3' && currentData.verse3 !== "") {
     verse.innerText = currentData.verse3;
   }
-
 }
