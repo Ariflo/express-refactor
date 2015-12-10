@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname );
@@ -49,7 +50,7 @@ app.get('/song/1/2/3', function(req, res) {
   });
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(port, function () {
   var port = server.address().port;
   console.log('Server up and listening on', port);
 });
