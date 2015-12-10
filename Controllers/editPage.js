@@ -3,7 +3,14 @@ window.onload = function(){
 
   var currentData;
 
-  window.localStorage.storyData ? currentData = JSON.parse(window.localStorage.storyData) : currentData = ""
+if(window.localStorage.storyData){
+
+    currentData = JSON.parse(window.localStorage.storyData);
+    
+}else{
+
+    currentData = "";
+}
 
   textInputs[0].value = currentData.verse1 || "";
   textInputs[1].value = currentData.verse2 || "";
