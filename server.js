@@ -2,8 +2,9 @@ var express = require('express');
 var app = express();
 
 app.set('view engine', 'ejs');
-app.set('Views/pages', __dirname);
-app.use(express.static(__dirname));
+app.set('views', 'Views/pages');
+app.use(express.static('public'));
+app.use(express.static('Controllers'));
 
 song = {
   verse1: 'This is the song that never ends',
